@@ -25,7 +25,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "jest"
   },
   "browserslist": [
     ">0.2%",
