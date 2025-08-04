@@ -26,17 +26,35 @@ This project extends the classic Tic-Tac-Toe game into a **dynamically sized NxN
 npm install
 # or
 yarn install
-````
-
-### Running the App
-
-```bash
-npm start
-# or
-yarn start
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to play with customizable board sizes.
+### Running the App (Development)
+
+This project uses **Vite** for fast development and builds.
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal) to play with customizable board sizes.
+
+### Building for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+### Previewing Production Build
+
+```bash
+npm run preview
+# or
+yarn preview
+```
 
 ## Project Structure
 
@@ -54,19 +72,20 @@ src/
 
 ## Running Tests
 
-To run unit tests for game logic:
+Unit tests use **Jest** and **ts-jest**.
 
-1. Install Jest and dependencies (if not yet installed):
+1. Install dependencies (already included in `package.json`):
 
 ```bash
-npm install --save-dev jest @types/jest ts-jest
-npx ts-jest config:init
+npm install
 ```
 
 2. Run the test suite:
 
 ```bash
-npx jest
+npm test
+# or
+yarn test
 ```
 
 This will execute the unit tests located in `src/utils/__tests__/game.test.ts`, which cover:

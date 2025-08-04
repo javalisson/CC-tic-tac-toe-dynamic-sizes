@@ -1,7 +1,7 @@
 {
-  "name": "react-typescript",
+  "name": "cc-tic-tac-toe-dynamic-sizes",
   "version": "1.0.0",
-  "description": "React and TypeScript example starter project",
+  "description": "A dynamic-size Tic-Tac-Toe game built with React and TypeScript.",
   "keywords": [
     "typescript",
     "react",
