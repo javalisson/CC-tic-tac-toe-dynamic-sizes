@@ -14,6 +14,10 @@ This project extends the classic Tic-Tac-Toe game into a **dynamically sized NxN
 - Board selector with automatic reset
 - Shared logic extracted to `utils/game.ts`
 
+## Demo
+
+Try it live: [https://javalisson.github.io/CC-tic-tac-toe-dynamic-sizes/](https://javalisson.github.io/CC-tic-tac-toe-dynamic-sizes/)
+
 ## Getting Started
 
 ### Prerequisites
